@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: MarioAzevedo
+Depiction: https://github.com/MarioAzevedo/marioazevedo.github.io
+Description: Adds Icon Images
+Maintainer: MarioAzevedo <marioantonio2001@gmail.com>
+Name: Icons for IOS 11
+Package: com.MarioAzevedo.IconsforIOS11
+Section: Tweaks
+Version: 1.0
