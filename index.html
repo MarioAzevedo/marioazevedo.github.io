@@ -2,85 +2,103 @@
 <html>
 <head>
 <style>
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, Helvetica, Aerial, sans-serif;
+  color: #fff; }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
+header {
+  display: block;
+  background-color: #366FEF;
+  min-height: 400px;
+  width: 100%; }
 
-nav {
-    float: left;
-    max-width: 1282px;
-    margin: 0;
-    padding: 1em;
-}
+header .container {
+  padding: 50px 60px; }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
+#logo {
+  float: left;
+  width: 40%;
+  position: relative;
+  display: inline-block; }
 
-article {
-    margin-left: 456px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
+#logo-image {
+  position: absolute;
+  display: inline-block;
+  width: 37px;
+  height: 42px;
+  background-image: url(../images/logo.png); }
+
+#logo span {
+  margin-left: 55px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 50px; }
+
+#header-title {
+  display: block;
+  padding-top: 120px;
+  left: 10%;
+  width: 100%;
+  max-width: 700px;
+  font-size: 40px;
+  font-weight: Bold; }
+
+#header-subtitle {
+  line-height: 34px;
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 36px;
+  padding-bottom: 34px; }
+
+#instructions {
+  background-color: #FC7A74;
+  width: 100%; }
+
+#instructions-title {
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  font-weight: 400;
+  top: 25%; }
+
+.step {
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-bottom: 30px; }
+  .step .title {
+    font-weight: 500;
+    font-size: 26px;
+    padding-bottom: 12px; }
+  .step .instruction {
+    font-weight: 300;
+    font-size: 23px; }
+  .step img {
+    padding-top: 30px;
+    display: block; }
 </style>
 </head>
 <body>
-
-<div class="container">
-
 <header>
-   <h1>Welcome to My repo</h1>
-</header>
-  
-<nav>
-  <ul>
-  <h1><p align="Center">Mario Azevedo</p></h1>
- </ul>
-</nav>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://marioazevedo.github.io"><img src="images/AddToCydia.png"></a>
-<a href="http://www.mediafire.com/file/ovgzz49owewzgto/CerCube_v12.47_T4.2.1.5.ipa" class="btn btn-fill clearfix">
-    ::before
-    "download app"
-    ::after
-    </a>
-<article>
-  <h1>Quem sou?</h1>
-  <p>Oi pessoal eu chamo-me Mario Azevedo e sou desenvolvedor da apple.</p>
-  <p>Criei um repo e tenho alguns tweaks no quais voce pode usufruir como quiser.</p>
-</article>
+    <div class="container">
+    <section id="logo">
+      <div id="logo-image"></div>
+      <span>Delta</span>
+    </section>
+    <section id="header-title">
+      Cydia Repository, Home of Flex 3<br>
+      <section id="header-subtitle">
+        If you'd like to download Flex 3, then you're in the right place.
+        Tap the button below if you're on an iOS device.
+      </section>
 
-<article>
-  <h1>O que e um repo?</h1>
-  <p>Basicamente todos os os tweaks que voce pode encontrar no cydia provem de um repo , ou seja, voce tem que adicionar repos para que possa utilizar os tweaks que deseja.</p>
-  </article>
+      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://marioazevedo.github.io"><img src="images/AddToCydia.png"></a>
+    </section>
+  </div>
+  </header>
 
-<article>
-  <h1>Como posso adicionar um repo?</h1>
-  <p> 1- Abra o cydia.</p>
-  <p> 2- Na barra que encontra em baixo, clique em origens</p>
-  <p> 3- Dentro das origens, clique em editar ( canto superior direito )</p>
-  <p> 4- Apos clicar em editar, vai aparecer no vosso canto superior esquerdo "adicionar" clique nisso. </p>
-  <p> 5- Agora basta adiconar o repo: <a href="http://marioazevedo.github.io/">http://marioazevedo.github.io</a></p>
-  </article>
-
-<footer>Copyright &copy; Mario Azevedo</footer>
-
-</div>
 
 </body>
 </html>
