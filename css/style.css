@@ -459,21 +459,21 @@ header .container {
 	background: #053740; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a6bb', endColorstr='#25bad0', GradientType=0 ); /* IE6-9 */
 }
-#Flex3 h2 {
+#flex3 h2 {
 	color: rgba(255,255,255,0.8);
 }
-#Flex3 h3 {
+#flex3 h3 {
 	color: #0a4b55;
 }
 img.img-circle.team-img {
 	width: 160px;
 	height: 160px;
 }
-#Flex3 .thumbnail {
+#flex3 .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#Flex3 .thumbnail .caption {
+#flex3 .thumbnail .caption {
 	padding: 9px;
 	color: rgba(255,255,255,0.9);
 }
