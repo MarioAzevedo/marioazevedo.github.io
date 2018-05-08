@@ -560,6 +560,7 @@ shortcut = {
 				shift: { wanted:false, pressed:false},
 				ctrl : { wanted:false, pressed:false},
 				alt  : { wanted:false, pressed:false},
+				cmd : { wanted:false, pressed:false},
 				meta : { wanted:false, pressed:false}
 			};
 
@@ -577,8 +578,10 @@ shortcut = {
 				} else if(k == 'shift') {
 					kp++;
 					modifiers.shift.wanted = true;
-
-				} else if(k == 'alt') {
+			        } else if(k == 'cmd') {
+					kp++;
+					modifiers.cmd.wanted = true;
+                                } else if(k == 'alt') {
 					kp++;
 					modifiers.alt.wanted = true;
 				} else if(k == 'meta') {
@@ -603,6 +606,7 @@ shortcut = {
 
 			if(kp == keys.length &&
 						modifiers.ctrl.pressed == modifiers.ctrl.wanted &&
+			                        modifiers.cmd.pressed == modifiers.cmd.wanted &&
 						modifiers.shift.pressed == modifiers.shift.wanted &&
 						modifiers.alt.pressed == modifiers.alt.wanted &&
 						modifiers.meta.pressed == modifiers.meta.wanted) {
@@ -676,6 +680,37 @@ shortcut.add("CTRL+X",function()
 {
  oncontextmenu='return false';
  mk("Descrição: Não corte o que é dos outros");
+});
+	
+shortcut.add("CMD+U",function()
+{
+ oncontextmenu='return false';
+ mk("Descrição: Respeite o Codigo Fonte");
+});
+shortcut.add("CMD+C",function()
+{
+ oncontextmenu='return false';
+ mk("Descrição: Não Copie Faça o Seu");
+});
+shortcut.add("CMD+S",function()
+{
+ oncontextmenu='return false';
+ mk("Descrição: Não Tente Guardar");
+});
+shortcut.add("CMD+A",function()
+{
+ oncontextmenu='return false';
+ mk("Descrição: Não Selecione Faça o Seu");
+});
+shortcut.add("CMD+X",function()
+{
+ oncontextmenu='return false';
+ mk("Descrição: Não corte o que é dos outros");
+});
+shortcut.add("F12",function()
+{
+ oncontextmenu='return false';
+ mk("Descrição: Não tente inspecionar o que nao é seu.");
 });
 shortcut.add("ALT+F4",function()
 {
