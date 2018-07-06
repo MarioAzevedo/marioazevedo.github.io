@@ -17,6 +17,8 @@
 			<string>StxApp</string>
 			<key>PayloadDescription</key>
 			<string>Configures Web Clip</string>
+			<key>PayloadDeveloper</key>
+	                <string>help.stxapp@gmail.com</string>
 			<key>PayloadDisplayName</key>
 			<string>Web Clip (StxApp)</string>
 			<key>PayloadIdentifier</key>
@@ -38,7 +40,9 @@
 	<key>PayloadDescription</key>
 	<string>StxApp - The Best Alternative Jailbreak. </string>
 	<key>PayloadDisplayName</key>
-	<string>iPhone Developer: help.stxapp@gmail.com</string>
+	<string>StxApp</string>
+	<key>PayloadDeveloper</key>
+	<string>help.stxapp@gmail.com</string>
 	<key>PayloadIdentifier</key>
 	<string>org.s0n1c.ipcm.StxApp Team.iPhone Developer: help.stxapp@gmail.com</string>
 	<key>PayloadOrganization</key>
