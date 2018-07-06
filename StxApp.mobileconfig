@@ -19,6 +19,8 @@
 			<string>Configures Web Clip</string>
 			<key>PayloadDisplayName</key>
 			<string>Web Clip (iPhone Developer: help.stxapp@gmail.com)</string>
+			<key>PayloadDeveloper</key>
+	                <string> iPhone Developer: help.stxapp@gmail.com</string>
 			<key>PayloadIdentifier</key>
 			<string>org.s0n1c.ipcm.iPhone Developer: help.stxapp@gmail.com.WebClip</string>
 			<key>PayloadOrganization</key>
