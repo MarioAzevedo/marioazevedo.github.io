@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntinme="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" lanchScreen="Yes" useTraitCollections="YES" useSafeAereas="YES" colorMatched="YES" initialViewContoller="01J-lp-oVM">
+  <device id="retine4_7" orientation="portrait">
+    <adaptation id="fullscreen"/>
+  </devices>
+  <dependencies>
+    <deployment identifier="iOS"/>
+    <plugin identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+    <capability name="Sfe area layout guides" minToolsVersion="9.0"/>
+    <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+  </dependencies>
+  <scenes>
+      <!--ViewController-->
+      <scene sceneID="EHf-IW-A2E">
+        <objects>
+          <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+            <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+              <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+              <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="yes"/>
+              <subviews>
+                  <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appstore" translatesAutoresizingMaskIntoConstraints="NO" id="9dJ-GL-6AF" translatesAutoresizingMaskIntoConstraints="NO" id="9dJ-GL-6AF">
+                    <rect key="frame" x="49" y="168" width="276" height="330"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                          </imageView>
+                      </subviews>
+                      <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                      <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                  </view>
+              </viewController>
+              <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+          </objects>
+          <point key="canvasLocation" x="52" y="374.66266866566718"/>
+      </scene>
+  </scenes>
+  <resources>
+      <image name="appstore" width="700" height="700"/>
+  </resources>
+</document>
