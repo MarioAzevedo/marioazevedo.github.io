@@ -1,1 +1,1 @@
-[{"Name":"Mário Teste 1","Cidade":"Agueda","Escola":"Secundária de Anadia"}]
+[{"Name":"Mario Teste 1","Cidade":"Agueda","Escola":"Secundaria de Anadia"}]
